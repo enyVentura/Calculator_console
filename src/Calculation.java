@@ -1,4 +1,4 @@
-public interface Calculation extends Operations {
+public interface Calculation {
 
     static String calc(int num1, int num2, char operation) {
 
@@ -20,7 +20,7 @@ public interface Calculation extends Operations {
                 break;
             default:
                 System.out.println("Операция не распознана. Повторите ввод.");
-                calc(num1, num2, Operations.getOperation());//рекурсия
+             //   calc(num1, num2, Operations.getOperation());//рекурсия
         }
        str=Integer.toString(res);
        return str;

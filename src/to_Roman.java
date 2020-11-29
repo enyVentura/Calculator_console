@@ -13,6 +13,16 @@ public interface to_Roman {
         if (romanValue==8) stroked ="VIII";
         if (romanValue==9) stroked ="IX";
         if (romanValue==10) stroked ="X";
+        if (romanValue==11) stroked ="XI";
+        if (romanValue==12) stroked ="XII";
+        if (romanValue==13) stroked ="XIII";
+        if (romanValue==14) stroked ="XIV";
+        if (romanValue==15) stroked ="XV";
+        if (romanValue==16) stroked ="XVI";
+        if (romanValue==17) stroked ="XVII";
+        if (romanValue==18) stroked ="XVIII";
+        if (romanValue==19) stroked ="XIX";
+        if (romanValue==20) stroked ="XX";
         return stroked;
     }
 }

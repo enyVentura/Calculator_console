@@ -1,13 +1,13 @@
 //ввод значений
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Numbers implements isNumeric, to_Arabic, Calculation {
 
-    static Scanner scanner = new Scanner(System.in);
+ //   static Scanner scanner = new Scanner(System.in);
     static boolean flag;
     static int numbr,num;
 
-    public static int getNum(){
-        String number = scanner.nextLine();
+    public static int getNum(String number){
+     //   String number = scanner.nextLine();
         if (isNumeric.Protected(number)) { //проверка тип введенных символов
             flag =true; //true-Arabic symbols, false-Roman symbols
             numbr=Integer.parseInt(number); //если да, то парсим строку в Integer
@@ -24,3 +24,5 @@ public class Numbers implements isNumeric, to_Arabic, Calculation {
         return num;
     }
 }
+}
+ */
