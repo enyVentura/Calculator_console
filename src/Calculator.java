@@ -23,3 +23,4 @@ public class Calculator extends selectionString implements Calculation, Operatio
         }
     }
 }
+//That is program loaded from Intellij Idea JDK version 15.0.1
